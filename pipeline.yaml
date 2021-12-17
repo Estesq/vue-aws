@@ -58,7 +58,7 @@ Resources:
       Source:
         Type: GITHUB
         Location: 'https://github.com/Estesq/vue-aws'
-        BuildSpec: buildspec.yml
+        BuildSpec: buildspec.yaml
         Auth:
           Type: OAUTH
           Resource: !Ref CodeBuildServiceCredential
